@@ -9,6 +9,8 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: "color" },
+    size: { control: { type: "radio", options: ["sm", "md", "lg"] } },
+    borderSize: { control: { type: "radio", options: ["sm", "md", "lg"] } },
   },
 } as ComponentMeta<typeof Button>;
 
@@ -29,12 +31,12 @@ Secondary.args = {
 
 export const Large = Template.bind({});
 Large.args = {
-  size: "large",
+  size: "lg",
   label: "Button",
 };
 
 export const Small = Template.bind({});
 Small.args = {
-  size: "small",
+  size: "sm",
   label: "Button",
 };
