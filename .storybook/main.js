@@ -9,6 +9,14 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-controls",
+    {
+      name: "@storybook/addon-postcss",
+      options: {
+        postcssLoaderOptions: {
+          implementation: require("postcss"),
+        },
+      },
+    },
   ],
   framework: "@storybook/react",
   core: {
@@ -17,8 +25,8 @@ module.exports = {
   typescript: { reactDocgen: false },
   webpackFinal: async (config) => {
     config.module.rules.push({
-      test: /\.scss$/,
-      use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
+      test: /\.css$/,
+      use: ["postcss-loader"],
     });
 
     return config;
