@@ -1,26 +1,33 @@
 # Storybook Next with Tailwind Starter
 
-This is starter documentation [Next.js](https://nextjs.org/) project component using [Storybook](https://storybook.js.org/Storybook) bootstrapped with [`Tailwind`](https://tailwindcss.com/).
+This is starter documentation [Next.js](https://nextjs.org/) project component using [Storybook](https://storybook.js.org/Storybook) bootstrapped with [Tailwind](https://tailwindcss.com/).
 
 ## 🚀 Getting Started
+
 1. Clone this repo
+
 ```bash
 # replace "starter-template" with your own project
 git clone https://github.com/aqilfiqran/storybook-with-next-tailwind.git "starter-template"
 ```
+
 2. Install dependencies
+
 ```bash
 cd starter-template
-yarn install 
+yarn install
 ```
 
 3. Run storybook
+
 ```bash
 yarn storybook
 ```
+
 Open [http://localhost:6006](http://localhost:3000) with your browser to see the result.
 
 # 📝Noted
+
 You can start add more components in `components/*.tsx` and add it to `components/*.stories.tsx`. The stories auto-updates as you added the file.
 
 ## Learn More
