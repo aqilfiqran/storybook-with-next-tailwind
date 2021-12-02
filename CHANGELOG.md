@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/aqilfiqran/storybook-with-next-tailwind/compare/v0.0.1...v0.0.2) (2021-12-02)
+
+
+### Features
+
+* **deps:** add post loader ([f3fccb9](https://github.com/aqilfiqran/storybook-with-next-tailwind/commit/f3fccb937a59cbc0cd05a802f822b3bfe05cd350))
+* **stories:** example button with tailwind ([d0800ba](https://github.com/aqilfiqran/storybook-with-next-tailwind/commit/d0800baf17793f1e22a852d2946700e2beaad79c))
+
+
+### Bug Fixes
+
+* **chore:** integrate post loader 8 ([643fcbf](https://github.com/aqilfiqran/storybook-with-next-tailwind/commit/643fcbf7d7d6e7107b6a8ebc254ef7d831c8b044))
+
 ### 0.0.1 (2021-12-02)
 
 
