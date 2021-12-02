@@ -6,4 +6,4 @@ export default {
 } as ComponentMeta<typeof Home>;
 const Template: ComponentStory<typeof Home> = (args) => <Home {...args} />;
 
-export const LoggedIn = Template.bind({});
+export const Base = Template.bind({});
